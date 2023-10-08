@@ -6,7 +6,7 @@ Enio kilder Oliveira da Silva
 
 |**Tipo de Projeto**|**Modelo Selecionado**|**Linguagem**|
 |--|--|--|
-Deteção de Objetos |ex.: YOLOv5|PyTorch ou Tensorflow|
+Deteção de Objetos |YOLOv5|PyTorch|
 
 ## Performance
 

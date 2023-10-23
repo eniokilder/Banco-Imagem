@@ -6,7 +6,7 @@ Enio kilder Oliveira da Silva
 
 |**Tipo de Projeto**|**Modelo Selecionado**|**Linguagem**|
 |--|--|--|
-Deteção de Objetos |YOLOv5|PyTorch|
+DCLassificação de Objetos |YOLOv5|PyTorch|
 
 ## Performance
 
@@ -34,6 +34,7 @@ Exemplo de adição de imagem:
 Nessa seção deve colocar o link para acessar o dataset no Roboflow
 
 Exemplo de link: [Nome do link](google.com)
+Link: https://universe.roboflow.com/eniokilder/banco-imagem/browse?queryText=&pageSize=200&startingIndex=0&browseQuery=true
 
 ## HuggingFace
 

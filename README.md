@@ -33,7 +33,6 @@ Exemplo de adição de imagem:
 
 Nessa seção deve colocar o link para acessar o dataset no Roboflow
 
-Exemplo de link: [Nome do link](google.com)
 Link: https://universe.roboflow.com/eniokilder/banco-imagem/browse?queryText=&pageSize=200&startingIndex=0&browseQuery=true
 
 ## HuggingFace

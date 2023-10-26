@@ -6,7 +6,7 @@ Enio kilder Oliveira da Silva
 
 |**Tipo de Projeto**|**Modelo Selecionado**|**Linguagem**|
 |--|--|--|
-DCLassificação de Objetos |YOLOv5|PyTorch|
+CLassificação de Objetos |YOLOv5|PyTorch|
 
 ## Performance
 

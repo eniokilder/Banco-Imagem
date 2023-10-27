@@ -18,8 +18,7 @@ O modelo treinado possui performance de **81%**.
   <summary>Expandir Conteúdo!</summary>
   
   ```text
-  ###Você deve colar aqui a saída do bloco de treinamento do notebook, contendo todas as épocas e saídas do treinamento
-   %cd ../yolov5
+  %cd ../yolov5
   !python classify/train.py --model yolov5n-cls.pt --data $DATASET_NAME --epochs 320 --img 128 --pretrained weights/yolov5n-cls.pt
 
 /content/yolov5

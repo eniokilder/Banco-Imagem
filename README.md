@@ -2,7 +2,7 @@
 Banco-Imagem
 
 ### Nome do aluno
-Enio kilder Oliveira da Silva
+Enio Kilder Oliveira da Silva
 
 |**Tipo de Projeto**|**Modelo Selecionado**|**Linguagem**|
 |--|--|--|

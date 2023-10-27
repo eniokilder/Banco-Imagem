@@ -398,9 +398,10 @@ Results saved to runs/val-cls/exp2
 Nessa seção você deve colocar qualquer evidência do treinamento, como por exemplo gráficos de perda, performance, matriz de confusão etc.
 ```
 #### Modelo treinado com 80% ou mais de acurácia/precisão
-
+```
 ![Descrição](https://i.imgur.com/GB9Tihf.jpg)
 
+```
 #carro
 import requests
 image_url = "https://i.imgur.com/GB9Tihf.jpg"
@@ -423,8 +424,9 @@ Results saved to runs/predict-cls/exp13
 
 ### Modelo treinado com ao menos 50% de acurácia/precisão
 ====================================================
-
+```
 ![Descrição](https://i.imgur.com/ASwjAT5.jpg)
+```
 
 #Moto
 import requests

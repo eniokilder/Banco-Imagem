@@ -396,8 +396,8 @@ Results saved to runs/val-cls/exp2
 ### Evidências do treinamento
 
 Nessa seção você deve colocar qualquer evidência do treinamento, como por exemplo gráficos de perda, performance, matriz de confusão etc.
-
-Exemplo de adição de imagem:
+```
+#### Modelo treinado com 80% ou mais de acurácia/precisão
 
 ![Descrição](https://i.imgur.com/GB9Tihf.jpg)
 
@@ -411,8 +411,7 @@ with open('carro.jpg', 'wb') as handler:
 
 !python classify/predict.py --weights ./weigths/yolov5x-cls.pt --source carro.jpg
 
-Modelo treinado com 80% ou mais de acurácia/precisão
-====================================================
+
 classify/predict: weights=['./weigths/yolov5x-cls.pt'], source=carro.jpg, data=data/coco128.yaml, imgsz=[224, 224], device=, view_img=False, save_txt=False, nosave=False, augment=False, visualize=False, update=False, project=runs/predict-cls, name=exp, exist_ok=False, half=False, dnn=False, vid_stride=1
 YOLOv5 🚀 v7.0-230-g53efd07 Python-3.10.12 torch-2.1.0+cu118 CUDA:0 (Tesla T4, 15102MiB)
 
@@ -422,7 +421,7 @@ image 1/1 /content/yolov5/carro.jpg: 224x224 sports car 0.95, race car 0.02, con
 Speed: 0.4ms pre-process, 12.9ms inference, 6.9ms NMS per image at shape (1, 3, 224, 224)
 Results saved to runs/predict-cls/exp13
 
-Modelo treinado com ao menos 50% de acurácia/precisão
+### Modelo treinado com ao menos 50% de acurácia/precisão
 ====================================================
 
 ![Descrição](https://i.imgur.com/ASwjAT5.jpg)
@@ -437,7 +436,7 @@ with open('moto.jpg', 'wb') as handler:
     
 !python classify/predict.py --weights ./weigths/yolov5m-cls.pt --source moto.jpg
 
-
+```
 
 ## Roboflow
 

@@ -438,6 +438,15 @@ with open('moto.jpg', 'wb') as handler:
     
 !python classify/predict.py --weights ./weigths/yolov5m-cls.pt --source moto.jpg
 
+classify/predict: weights=['./weigths/yolov5m-cls.pt'], source=moto.jpg, data=data/coco128.yaml, imgsz=[224, 224], device=, view_img=False, save_txt=False, nosave=False, augment=False, visualize=False, update=False, project=runs/predict-cls, name=exp, exist_ok=False, half=False, dnn=False, vid_stride=1
+YOLOv5 🚀 v7.0-230-g53efd07 Python-3.10.12 torch-2.1.0+cu118 CUDA:0 (Tesla T4, 15102MiB)
+
+Fusing layers... 
+Model summary: 166 layers, 12947192 parameters, 0 gradients, 31.7 GFLOPs
+image 1/1 /content/yolov5/moto.jpg: 224x224 moped 0.64, scooter 0.17, disc brake 0.06, crash helmet 0.05, snowmobile 0.01, 5.4ms
+Speed: 0.4ms pre-process, 5.4ms inference, 6.9ms NMS per image at shape (1, 3, 224, 224)
+Results saved to runs/predict-cls/exp16
+
 ```
 
 ## Roboflow

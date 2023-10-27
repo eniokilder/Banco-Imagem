@@ -401,9 +401,8 @@ Exemplo de adição de imagem:
 
 ![Descrição](https://i.imgur.com/GB9Tihf.jpg)
 
-#Download imagem para exemplificação
-import requests
 #carro
+import requests
 image_url = "https://i.imgur.com/GB9Tihf.jpg"
 response = requests.get(image_url)
 response.raise_for_status()
@@ -412,17 +411,31 @@ with open('carro.jpg', 'wb') as handler:
 
 !python classify/predict.py --weights ./weigths/yolov5x-cls.pt --source carro.jpg
 
+Modelo treinado com 80% ou mais de acurácia/precisão
+====================================================
 classify/predict: weights=['./weigths/yolov5x-cls.pt'], source=carro.jpg, data=data/coco128.yaml, imgsz=[224, 224], device=, view_img=False, save_txt=False, nosave=False, augment=False, visualize=False, update=False, project=runs/predict-cls, name=exp, exist_ok=False, half=False, dnn=False, vid_stride=1
 YOLOv5 🚀 v7.0-230-g53efd07 Python-3.10.12 torch-2.1.0+cu118 CUDA:0 (Tesla T4, 15102MiB)
 
 Fusing layers... 
 Model summary: 264 layers, 48072600 parameters, 0 gradients, 129.9 GFLOPs
-image 1/1 /content/yolov5/carro.jpg: 224x224 sports car 
-#### 0.95
-, race car 0.02, convertible 0.01, car wheel 0.00, grille 0.00, 12.9ms
+image 1/1 /content/yolov5/carro.jpg: 224x224 sports car 0.95, race car 0.02, convertible 0.01, car wheel 0.00, grille 0.00, 12.9ms
 Speed: 0.4ms pre-process, 12.9ms inference, 6.9ms NMS per image at shape (1, 3, 224, 224)
 Results saved to runs/predict-cls/exp13
 
+Modelo treinado com ao menos 50% de acurácia/precisão
+====================================================
+
+![Descrição](https://i.imgur.com/ASwjAT5.jpg)
+
+#Moto
+import requests
+image_url = "https://i.imgur.com/ASwjAT5.jpg"
+response = requests.get(image_url)
+response.raise_for_status()
+with open('moto.jpg', 'wb') as handler:
+    handler.write(response.content)
+    
+!python classify/predict.py --weights ./weigths/yolov5m-cls.pt --source moto.jpg
 
 
 

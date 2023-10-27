@@ -410,7 +410,7 @@ response.raise_for_status()
 with open('carro.jpg', 'wb') as handler:
     handler.write(response.content)
 
-### !python classify/predict.py --weights ./weigths/yolov5x-cls.pt --source carro.jpg
+# !python classify/predict.py --weights ./weigths/yolov5x-cls.pt --source carro.jpg
 
 classify/predict: weights=['./weigths/yolov5x-cls.pt'], source=carro.jpg, data=data/coco128.yaml, imgsz=[224, 224], device=, view_img=False, save_txt=False, nosave=False, augment=False, visualize=False, update=False, project=runs/predict-cls, name=exp, exist_ok=False, half=False, dnn=False, vid_stride=1
 YOLOv5 🚀 v7.0-230-g53efd07 Python-3.10.12 torch-2.1.0+cu118 CUDA:0 (Tesla T4, 15102MiB)
@@ -426,6 +426,7 @@ Results saved to runs/predict-cls/exp13
 ## Roboflow
 
 Banco-Imagem > 2023-10-24 9:29pm
+
 https://universe.roboflow.com/eniokilder/banco-imagem
 
 Provided by a Roboflow user

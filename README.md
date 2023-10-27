@@ -21,7 +21,7 @@ O modelo treinado possui performance de **95%**.
     Você deve colar aqui a saída do bloco de treinamento do notebook, contendo todas as épocas e saídas do treinamento
   ```
 </details>
-
+ 
 ### Evidências do treinamento
 
 Nessa seção você deve colocar qualquer evidência do treinamento, como por exemplo gráficos de perda, performance, matriz de confusão etc.

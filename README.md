@@ -6,11 +6,11 @@ Enio Kilder Oliveira da Silva
 
 |**Tipo de Projeto**|**Modelo Selecionado**|**Linguagem**|
 |--|--|--|
-CLassificação de Objetos |YOLOv5|PyTorch|
+Classificação de Objetos |YOLOv5|PyTorch|
 
 ## Performance
 
-O modelo treinado possui performance de **??%**.
+O modelo treinado possui performance de **95%**.
 
 ### Output do bloco de treinamento
 

@@ -305,4 +305,4 @@ License: CC BY 4.0
 
 ## HuggingFace
 
-Link para o HuggingFace:  Não há
+Link para o HuggingFace:  Não realizado

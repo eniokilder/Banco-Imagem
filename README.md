@@ -10,7 +10,7 @@ Classificação de Objetos |YOLOv5|PyTorch|
 
 ## Performance
 
-O modelo treinado possui performance de **%**.
+O modelo treinado possui performance de **100%**.
 
 ### Output do bloco de treinamento
 

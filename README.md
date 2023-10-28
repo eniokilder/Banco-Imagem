@@ -209,6 +209,15 @@ Results saved to runs/val-cls/exp
  
 ### Evidências do treinamento
 
+#### Gráfico de treinamento e perdas
+
+![Descrição](https://i.imgur.com/wgvXUB6.jpg)
+
+#### MAtriz de Confusão
+
+![Descrição](https://i.imgur.com/3wAANRi.jpg)
+
+
 #### Inferindo com o modelo personalizado
 ```
 #Pega a localização de uma imagem do conjunto de testes ou validações 

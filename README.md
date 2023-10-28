@@ -209,11 +209,11 @@ Results saved to runs/val-cls/exp
  
 ### Evidências do treinamento
 
-#### Gráfico de treinamento e perdas
+#### Gráficos de precisão e perdas
 
 ![Descrição](https://i.imgur.com/wgvXUB6.jpg)
 
-#### MAtriz de Confusão
+#### Matriz de Confusão
 
 ![Descrição](https://i.imgur.com/3wAANRi.jpg)
 

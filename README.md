@@ -232,7 +232,7 @@ YOLOv5 🚀 v7.0-230-g53efd07 Python-3.10.12 torch-2.1.0+cu118 CUDA:0 (Tesla T4,
 
 Fusing layers... 
 Model summary: 117 layers, 1214869 parameters, 0 gradients, 2.9 GFLOPs
-image 1/1 /content/yolov5/Banco-Imagem-1/test/carros/00012_jpg.rf.9f0d32646e83139878c5788b040038f7.jpg: 224x224 carros ```**0.91**```, avioes 0.08, motos 0.01, helicopteros 0.00, barcos 0.00, 2.7ms
+image 1/1 /content/yolov5/Banco-Imagem-1/test/carros/00012_jpg.rf.9f0d32646e83139878c5788b040038f7.jpg: 224x224 carros 0.91, avioes 0.08, motos 0.01, helicopteros 0.00, barcos 0.00, 2.7ms
 Speed: 0.3ms pre-process, 2.7ms inference, 5.1ms NMS per image at shape (1, 3, 224, 224)
 Results saved to runs/predict-cls/exp14
 ```

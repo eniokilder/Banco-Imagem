@@ -314,4 +314,6 @@ License: CC BY 4.0
 
 ## HuggingFace
 
-Link para o HuggingFace:  Não realizado
+Link para o HuggingFace:  
+
+https://huggingface.co/datasets/eniokilder/Banco-Imagem

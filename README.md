@@ -394,9 +394,9 @@ Results saved to runs/val-cls/exp2
  
 ### Evidências do treinamento
 
-Nessa seção você deve colocar qualquer evidência do treinamento, como por exemplo gráficos de perda, performance, matriz de confusão etc.
 ```
 #### Modelo treinado com 80% ou mais de acurácia/precisão
+=========================================================
 ```
 ![Descrição](https://i.imgur.com/GB9Tihf.jpg)
 
@@ -422,7 +422,7 @@ Speed: 0.4ms pre-process, 12.9ms inference, 6.9ms NMS per image at shape (1, 3, 
 Results saved to runs/predict-cls/exp13
 
 ### Modelo treinado com ao menos 50% de acurácia/precisão
-====================================================
+=========================================================
 ```
 ![Descrição](https://i.imgur.com/ASwjAT5.jpg)
 ```

@@ -254,7 +254,7 @@ response.raise_for_status()
 with open('carro.jpg', 'wb') as handler:
     handler.write(response.content)
 
-!python classify/predict.py --weights ./weigths/yolov5x-cls.pt --source carro.jpg
+!python classify/predict.py --weights ./weights/yolov5x-cls.pt --source carro.jpg
 
 
 classify/predict: weights=['./weigths/yolov5x-cls.pt'], source=carro.jpg, data=data/coco128.yaml, imgsz=[224, 224], device=, view_img=False, save_txt=False, nosave=False, augment=False, visualize=False, update=False, project=runs/predict-cls, name=exp, exist_ok=False, half=False, dnn=False, vid_stride=1
@@ -280,7 +280,7 @@ response.raise_for_status()
 with open('moto.jpg', 'wb') as handler:
     handler.write(response.content)
     
-!python classify/predict.py --weights ./weigths/yolov5m-cls.pt --source moto.jpg
+!python classify/predict.py --weights ./weights/yolov5m-cls.pt --source moto.jpg
 
 classify/predict: weights=['./weigths/yolov5m-cls.pt'], source=moto.jpg, data=data/coco128.yaml, imgsz=[224, 224], device=, view_img=False, save_txt=False, nosave=False, augment=False, visualize=False, update=False, project=runs/predict-cls, name=exp, exist_ok=False, half=False, dnn=False, vid_stride=1
 YOLOv5 🚀 v7.0-230-g53efd07 Python-3.10.12 torch-2.1.0+cu118 CUDA:0 (Tesla T4, 15102MiB)
